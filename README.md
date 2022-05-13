@@ -4,22 +4,21 @@
 ## List of recipes
 
 - [Talking to the openFyde instance](./recipes/1-talking_to_openfyde.md)
-- [Adding kernel drivers for non-functioning components](./recipes/2-adding_kernel_driver.md)
+- [Adding AX210 kernel driver support for non-functioning wifi NIC](./recipes/2-adding_AX210_kernel_driver_support.md)
 
 
-<br>
 <br>
 
 
 ## About this Cookbook
 
-When we talk about Cookbooks in computer science or software engineering, what comes into our minds first? It's likely that the O'Reilly should have a strong presence, yes, I do mean the old school thick paperback books that are usually too heavy to carry in your backpack and always with a fantastic beast on the cover. Those Cookbooks have brought valuable hands-on experience to practitioners and thus have inspired generations of people. We want to create one of these and we hope this could bring some inspiration as well as be helpful for the very least. This is the Cookbook about openFyde and Chromium OS.
+When we talk about Cookbooks in computer science or software engineering, what comes into our minds first? It's likely that the O'Reilly should have a strong presence, yes, I do mean the old school thick paperback books that are usually too heavy to carry in your backpack and always with a fantastic beast on the cover. Those Cookbooks have brought valuable hands-on experience to practitioners and thus have inspired generations of people. We want to create one of these and we hope this could bring some inspiration as well as be helpful for the very least.
 
 This is the Cookbook about openFyde and Chromium OS.
 
 The recipes in this Cookbook are there to give you inspiration in terms of what you can achieve with the openFyde projects. The objectives of the recipes may or may not be able to help you directly with your project needs, but we hope that they can provide some pointers in terms of where to get started.
 
-The people behind FydeOS and the openFyde Authors will continue to contribute to the contents in this Cookbook, a firm thank you to each and everyone who has helped to make this possible.
+The openFyde Authors and the people behind FydeOS will continue to contribute to the contents in this Cookbook, a firm thank you to each and everyone who has helped to make this possible.
 
 
 ### What does this boook cover
@@ -97,12 +96,12 @@ Command-line shell commands are shown with different labels to indicate whether 
  - your openFyde device (the device on which you boot and run the images you build)
 
 
-| Label     | Commands                                                                            |
+|   Label   | Description                                                                         |
 | --------- | ----------------------------------------------------------------------------------- |
 | no label  | on your local development computer where it may or may not have the cros_sdk chroot |
 | (outside) | on your build computer, outside the chroot                                          |
 | (inside)  | inside the chroot on your build computer                                            |
-| (device)	| on the openFyde device's shell                                                      |
+| (device)  | on the openFyde device's shell                                                      |
 
 
 

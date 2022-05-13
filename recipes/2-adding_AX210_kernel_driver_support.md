@@ -1,4 +1,4 @@
-# Adding missing kernel driver for non-functioning components
+# Adding AX210 kernel driver support for non-functioning wifi NIC
 
 
 ## Objectives
@@ -189,7 +189,7 @@ The following discusses ways to swap the kernel from your device with this one t
 
 
 
-### Replace kernel/module on openFyde device
+### Replace kernel or update kernel module on openFyde device
 
 The objective here is to replace the kernel on the openFyde device with the one that you've just built, hoping that it could resolve the driver compatibility issue for you. Basically, you have the following options:
 
@@ -202,7 +202,7 @@ The objective here is to replace the kernel on the openFyde device with the one 
 
     ```
 
-- Manually replace kernel/module
+- Manually replace kernel module
 
     Because the file we have modified in previous steps is `drivers/net/wireless/intel/iwlwifi/cfg/22000.c`, therefore we can confidently deduce that only `lib/modules/5.10.98-12114-gd38e716283b6-dirty/kernel/drivers/net/wireless/intel/iwlwifi/iwlwifi.ko` will be updated after emerging(rebuilding) the kernel package. We can find this affected `.ko` file on the build machine:
 
