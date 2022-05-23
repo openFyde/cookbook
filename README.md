@@ -5,6 +5,7 @@
 
 - [Talking to the openFyde instance](./recipes/1-talking_to_openfyde.md)
 - [Adding AX210 kernel driver support for non-functioning wifi NIC](./recipes/2-adding_AX210_kernel_driver_support.md)
+- [Adding kernel driver for I²C toucpad using fydeos-hardware-tuning](./recipes/3-adding_touchpad_driver_support.md)
 
 
 <br>
