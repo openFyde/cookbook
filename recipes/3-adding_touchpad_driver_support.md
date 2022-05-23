@@ -11,7 +11,7 @@ Touchpad can use either USB or I²C for host connectivity. In this topic, we are
 
 This recipe includes examples how to debug touchpad issue using [fydeos-hardware-tuning](https://github.com/openFyde/fydeos-hardware-tuning) and add a quirk to kernel and make it work under openFyde images produced in Apr 2022 (equivalent to FydeOS v14.1).
 
-Not only touchpad is connected to host by I²C but also other device types are using I²C. The cookbook is intended to illustrate how to add a I²C device to openFyde kernel.
+Not only touchpad is connected to host by I²C but also other device types are using I²C. Here we intend to illustrate how to add a I²C device to openFyde kernel.
 
 ## Preparation
 
@@ -30,7 +30,7 @@ hwtuner --info
 ```
 
 
-The output of aboved command contains all information of your hardware. It includes many sections like MEMORY, WIRELESS and so on.
+The output of aboved command contains all information of your hardwares. It includes many sections like MEMORY, WIRELESS and so on.
 
 
 For touchpad, section `HID DEVICES` is the key information to slove issue.
@@ -47,6 +47,7 @@ hwtuner --info | grep -i ELAN
 [    6.463516] i2c_hid i2c-ELAN0638:00: i2c_ELAN0638:00 supply vdd not found, using dummy regulator
 ```
 
+
 The segment `ELAN0638` indicates the touchpad ACPI ID. Then do a quik grep:
 
 ```
@@ -58,6 +59,7 @@ hwtuner --info | grep -i ELAN0638 | grep input
 Empty output means the cause is that the touchpad device is unrecognized as an INPUT device.
 
 We are gonna add the ACPI ID `ELAN0638` to kernel and patch openFyde.
+
 
 
 ### Generate a kernel patch for openFyde
