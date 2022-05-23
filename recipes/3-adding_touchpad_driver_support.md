@@ -1,4 +1,4 @@
-# Adding kernel driver support for non-functioning I²C toucpad using hwtuner 
+# Adding kernel driver support for non-functioning I²C toucpad using fydeos-hardware-tuning
 
 
 ## Objectives
@@ -11,7 +11,7 @@ Touchpad can use either USB or I²C for host connectivity. In this topic, we are
 
 This recipe includes examples how to debug touchpad issue using [fydeos-hardware-tuning](https://github.com/openFyde/fydeos-hardware-tuning) and add a quirk to kernel and make it work under openFyde images produced in Apr 2022 (equivalent to FydeOS v14.1).
 
-
+Not only touchpad is connected to host by I²C but also other device types are using I²C. The cookbook is intended to illustrate how to add a I²C device to openFyde kernel.
 
 ## Preparation
 
