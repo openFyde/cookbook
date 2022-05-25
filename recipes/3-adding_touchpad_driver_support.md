@@ -1,4 +1,4 @@
-# Adding kernel driver support for non-functioning I²C toucpad using fydeos-hardware-tuning
+# Adding kernel driver support for non-functioning I²C touchpad using fydeos-hardware-tuning
 
 
 ## Objectives
