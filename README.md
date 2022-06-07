@@ -1,6 +1,12 @@
 ![](https://fydeos.com/content/wp-content/uploads/2022/05/openfyde-cookbook.jpg)
 
 
+[简体中文版本](./README_CN.md)
+
+
+<br>
+
+
 ## List of recipes
 
 - [Talking to the openFyde instance](./recipes/1-talking_to_openfyde.md)
