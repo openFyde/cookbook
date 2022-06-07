@@ -1,6 +1,6 @@
 ![](https://fydeos.com/content/wp-content/uploads/2022/05/openfyde-cookbook.jpg)
 
-[英语版本](./README.md)
+[In English](./README.md)
 
 
 
