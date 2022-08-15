@@ -70,7 +70,7 @@ Like other linux distributions, openFyde only requires a suitable aka bootable U
 
 For rk3399 SOC, disk layout is documented on the (webpage)[https://opensource.rock-chips.com/wiki_Partitions]. We have made a simple [script](https://github.com/FydeOS-for-You-overlays/uboot-bin-for-pinebookpro/blob/rock-pi4/export_images.sh) for it.
 
-After exporting binary images, put them into ebuild folder `files`` and modify the u-boot [ebuild](https://github.com/openFyde/foundation-rk3399/tree/main/baseboard-rockpi4/sys-boot/rockchip-uboot).
+After exporting binary images, put them into ebuild folder `files` and modify the u-boot [ebuild](https://github.com/openFyde/foundation-rk3399/tree/main/baseboard-rockpi4/sys-boot/rockchip-uboot).
 
 ### TTY console
 The next step is to make TTY console right. Observe tty port of your device in dmesg output of your linux device. There is a package named [tty](https://github.com/openFyde/foundation-rk3399/tree/main/baseboard-rockpi4/chromeos-base/tty) in openFyde, copy and modify it in overlay of your SBC.
