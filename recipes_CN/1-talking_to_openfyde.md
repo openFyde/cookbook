@@ -31,7 +31,7 @@
 (device)$ sed -i "s/PasswordAuthentication.*/PasswordAuthentication yes/g" /etc/ssh/sshd_config
 
 # restart sshd
-(device)$ initctl status openssh-server
+(device)$ initctl restart openssh-server
 ```
 
 1. 现在你能够通过密码验证从另一台设备通过 ssh 客户端连接到你的 openFyde 设备上。

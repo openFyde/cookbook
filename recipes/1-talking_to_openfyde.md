@@ -34,7 +34,7 @@ Boot your openFyde image on the target device and make sure you have physical kv
 (device)$ sed -i "s/PasswordAuthentication.*/PasswordAuthentication yes/g" /etc/ssh/sshd_config
 
 # restart sshd
-(device)$ initctl status openssh-server
+(device)$ initctl restart openssh-server
 ```
 
 3. You should now be able to ssh connect to your openFyde device from another machine that has ssh client via password authentication
