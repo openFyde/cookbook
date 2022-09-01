@@ -13,7 +13,7 @@
 - [Adding AX210 kernel driver support for non-functioning wifi NIC](./recipes/2-adding_AX210_kernel_driver_support.md)
 - [Adding kernel driver for I²C touchpad using fydeos-hardware-tuning](./recipes/3-adding_touchpad_driver_support.md)
 - [Adding out of tree driver without cros develop environment](./recipes/4-adding_out_of_tree_driver_without_cros.md)
-
+- [Porting openFyde for a device with an ARM SoC](./recipes/5-porting-openfyde-on-ARM-SOC.md)
 
 <br>
 
