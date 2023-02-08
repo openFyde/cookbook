@@ -1,6 +1,11 @@
 ![](https://fydeos.com/content/wp-content/uploads/2022/05/openfyde-cookbook.jpg)
 
-[In English](./README.md)
+
+
+[<img src="https://img.shields.io/endpoint?style=flat&color=fedcba&url=https://telegram-badge-t2fuv4m3rno2.runkit.sh/?url=https://t.me/hi_fydeos">](https://t.me/hi_fydeos)
+
+
+[<img src="https://img.shields.io/badge/%F0%9F%87%AC%F0%9F%87%A7-English-blue">](./README.md)
 
 
 
