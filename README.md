@@ -1,7 +1,9 @@
 ![](https://fydeos.com/content/wp-content/uploads/2022/05/openfyde-cookbook.jpg)
 
+[<img src="https://img.shields.io/endpoint?style=flat&color=fedcba&url=https://telegram-badge-t2fuv4m3rno2.runkit.sh/?url=https://t.me/hi_fydeos">](https://t.me/hi_fydeos)
 
-[简体中文版本](./README_CN.md)
+
+[<img src="https://img.shields.io/badge/%F0%9F%87%A8%F0%9F%87%B3-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%E7%89%88%E6%9C%AC-blue">](./README_CN.md)
 
 
 <br>
