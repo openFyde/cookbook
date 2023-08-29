@@ -142,7 +142,7 @@ If it doesn't work, please check output of  `lsmod` after reboot. If the module 
 
 ## How it works
 
-Even openFyde and FydeOS don't provide linux-headers, out of tree module can be compiled with manual compiled oenFyde kernel.
+Even openFyde and FydeOS don't provide linux-headers, out of tree module can be compiled with manual compiled openFyde kernel.
 
 
 
